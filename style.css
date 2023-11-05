@@ -151,3 +151,48 @@
     justify-content: center;
 }
 
+/* Style for the course box */
+.course {
+    width: 1040px;
+    height: 379px;
+    flex-shrink: 0;
+    margin-left: 100px;
+    margin-right: 140px;
+    margin-top: 235px;
+    background-color: #C24914;
+}
+
+/* Style for the course detail and image box */
+.course .image {
+    width: 480px;
+    height: 379px;
+    flex-shrink: 0;
+    float: left;
+}
+
+.course .detail h1 {
+    width: 407px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 587px;
+    padding-top: 44px;
+}
+
+.course .detail ul {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 580px;
+}
+
+.course .detail ul li {
+    margin-bottom: 20px;
+}
+
