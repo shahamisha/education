@@ -1,3 +1,4 @@
+/* Style the home box */
 .home {
     width: 1280px;
     height: 3599px;
@@ -5,6 +6,7 @@
     
 }
 
+/* Style for the nav box */
 .nav {
     width: 1280px;
     height: 124px;
@@ -14,6 +16,7 @@
     background: #F9E0AE;
 }
 
+/* Style for the nav logo */
 .nav .logo img {
     width: 38px;
     height: 38px;
@@ -34,6 +37,7 @@
     position: relative;
 }
 
+/* Style for the nav complete ul, li and contact us div(4) */
 .nav .menu {
     width: 479px;
     height: 30px;
@@ -45,7 +49,6 @@
     margin-left: 450px;
     justify-content: center;
 }
-
 
 .nav .menu .courses .img1 {
     width: 14.978px;
@@ -85,5 +88,66 @@
     line-height: normal;
     justify-content: center;
     text-align: center;
+}
+
+/* Style for the main box */
+.main {
+    width: 1080px;
+    height: 487px;
+    flex-shrink: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 72px;
+    background-color: aqua;
+}
+
+/* Style for the inner main box all */
+.main .image {
+    width: 487px;
+    height: 487px;
+    flex-shrink: 0;
+    float: right;
+}
+
+.main .detail {
+    width: 426px;
+    height: 144px;
+    padding-top: 20px;
+}
+
+.main .detail h1 {
+    width: 428px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.main .detail p {
+    width: 550px;
+    color: rgba(0, 0, 0, 0.46);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 34px;
+    margin-bottom: 60px;
+    
+}
+
+.main .detail .rect1 {
+    width: 200px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #682C0E;
+    margin-top: 34px;
+    color: #FFF;
+    text-align: center;
+    justify-content: center;
 }
 
