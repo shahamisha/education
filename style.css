@@ -232,3 +232,97 @@
     justify-content: space-between;
 }
 
+/* Style for the rectangle box */
+.rectangle {
+    width: 1080px;
+    height: 140px;
+    flex-shrink: 0;
+    background: #F9E0AE;
+    margin-top: 109.36px;
+    margin-left: 100px;
+    
+}
+
+/* Style for the rectangle ul, li*/
+.rectangle ul li {
+    width: 300px;
+    height: 63px;
+    flex-shrink: 0;
+    background: #FFF;
+    list-style-type: none;
+    display: inline-flex;
+    margin-right: 40px;
+    margin-top: 38px;
+    justify-content: space-between;
+}
+
+.rectangle ul .rect1 {
+    margin-left: 10px;
+    width: 300px;
+    height: 63px;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.rectangle ul .rect1 text {
+    margin: 17px 94px 16px 94px;
+}
+
+.rectangle ul .rect2 {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.rectangle ul .rect2 text {
+    margin: 17px 51px 16px 51px;
+}
+
+.rectangle ul .rect3 {
+    background: #C24914;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.rectangle ul .rect3 text {
+    margin: 17px 98px 16px 99px;
+}
+
+.community {
+    width: 1117px;
+    height: 780px;
+    flex-shrink: 0;
+    background-color: aqua;
+    margin-top: 206px;
+    margin-left: 145px;
+    
+}
+
+.community .deatil h1 {
+    width: 531px;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.community .image {
+    width: 996px;
+    height: 664px;
+    flex-shrink: 0;
+    
+}
