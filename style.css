@@ -3,7 +3,7 @@
     width: 1280px;
     height: 3599px;
     background: #FFF;
-    
+    background-color: chocolate;
 }
 
 /* Style for the nav box */
@@ -107,6 +107,7 @@
     height: 487px;
     flex-shrink: 0;
     float: right;
+
 }
 
 .main .detail {
@@ -194,5 +195,40 @@
 
 .course .detail ul li {
     margin-bottom: 20px;
+}
+
+/* Style for the register box */
+.register {
+    display: flex;
+    width: 1060.314px;
+    height: 292.6424px;
+    gap: 91px;
+    margin-top: 234px;
+    margin-left: 100px;
+    background-color: cadetblue;
+}
+
+/* Style for the register h1 */
+.register .detail h1 {
+    width: 530px;
+    height: 216px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+    
+}
+
+/* Style for the register image */
+.register .image {
+    width: 439.314px;
+    height: 292.642px;
+    flex-shrink: 0;
+    float: left;
+    justify-content: space-between;
 }
 
