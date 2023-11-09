@@ -475,7 +475,7 @@
 
 /* Style for the footer box */
 .footer {
-    position: absolute;
+    position: relative;
     width: 1280px;
     height: 442px;
     flex-shrink: 0;
@@ -589,16 +589,28 @@
 }
 
 .footer .footer-add img {
-    position: relative;
+    position: absolute;
     display: flex;
-    justify-content: center;
     width: 20px;
     height: 19.212px;
     flex-shrink: 0;
-    background-color: #C24914;
     fill: #7D7A74;
     margin-top: 365px;
-    margin-bottom: 57.79px;
+    
+}
+
+.footer .footer-add .text {
+    width: 174px;
+    height: 23px;
+    margin-top: 363px;
+    margin-left: 25px;
+    position: absolute;
+    color: #7D7A74;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 @media (max-width: 768px) {
