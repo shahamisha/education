@@ -22,18 +22,16 @@
     flex-shrink: 0;
     fill: #000;
     margin-top: 44px;
-    margin-left: 119px;
-    display: inline-block;
+    display: inline-flex;
 }
 
-.nav .logo text {
+.nav .logo .text1 {
     color: #000;
     font-family: Jim Nightshade;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    position: relative;
 }
 
 /* Style for the nav complete ul, li and contact us div(4) */
@@ -41,7 +39,7 @@
     width: 479px;
     height: 30px;
     list-style-type: none;
-    display: inline-flex;
+    display: flex;
     align-items: flex-start;
     gap: 56px;
     padding-top: 44px;
@@ -49,44 +47,77 @@
     justify-content: center;
 }
 
-.nav .menu .courses .img1 {
-    width: 14.978px;
-    height: 8.628px;
-    fill: #000;
-    margin-left: 837px;
-    padding-top: 65px;
-    margin-right: 28px;
+.nav .menu .text, .nav .menu .courses .text {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
-.nav .menu .courses .img2 {
+.nav .menu .courses {
+    display: flex;
+    gap: 10px;
+    width: 113px;
+    height: 28px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .menu .courses .img {
     width: 14.978px;
     height: 8.628px;
     fill: #000;
     margin-left: 837px;
-    padding-top: 65px;
+    padding-top: 45px;
     margin-right: 28px;
+    padding-left: 20px;
 }
+
+.nav .menu .blog {
+    display: flex;
+    gap: 10px;
+    width: 113px;
+    height: 28px;
+    align-items: center;
+}
+
+.nav .menu .blog .img {
+    width: 14.978px;
+    height: 8.628px;
+    fill: #000;
+    margin-left: 967.98px;
+    padding-top: 65px;
+    margin-right: 297.04px;
+}
+
 
 .nav .menu .contact {
+    display: flex;
     width: 150px;
     height: 39px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: #C24914;
+    background-color: #C24914;
     margin-right: 100px;
     text-align: center;
     justify-content: center;
+    align-items: center;
+    padding: 2px;
 }
 
 .nav .menu .contact text {
+    display: flex;
+    align-items: center;
     color: #FFF;
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-around;
+    
 }
 
 /* Style for the main box */
@@ -139,6 +170,8 @@
 }
 
 .main .detail .rect1 {
+    display: flex;
+    align-items: center;
     width: 200px;
     height: 44px;
     flex-shrink: 0;
@@ -146,7 +179,6 @@
     background: #682C0E;
     margin-top: 34px;
     color: #FFF;
-    text-align: center;
     justify-content: center;
 }
 
@@ -158,7 +190,6 @@
     margin-left: 100px;
     margin-right: 140px;
     margin-top: 235px;
-    background-color: #C24914;
 }
 
 /* Style for the course detail and image box */
@@ -298,17 +329,42 @@
 
 /* Style for the community box */
 .community {
+    position: relative;
+    display: inline-block;
     width: 1117px;
     height: 780px;
     flex-shrink: 0;
     margin-top: 206px;
     margin-left: 145px;
-    
 }
 
-/* Style for the community detail */
-.community .deatil h1 {
+/* Style for the community detail*/
+.community .detail {
+    position: absolute;
     width: 531px;
+    height: 144px;
+    display: flex;
+    margin-top: 63px;
+    margin-left: 9px;
+    margin-right: 577px;
+    margin-bottom: 22px;
+    text-align: center;
+    align-items: center;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* Style for the community detail 
+.community .deatil h1 {
+    position: absolute;
+    width: 501px;
+    height: 144px;
+    display: flex;
+    background-color: #682C0E;
     color: #000;
     text-align: center;
     font-family: Poppins;
@@ -316,17 +372,110 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}*/
+
+.community .paragraph {
+    position: absolute;
+    width: 549px;
+    height: 30px;
+    color: rgba(0, 0, 0, 0.46);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 209px;
+}
+
+.community .rect1 {
+    display: flex;
+    position: absolute;
+    width: 273px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FC8621;
+    margin-top: 322px;
+    margin-left: 138px;
+    align-items: center;
+    justify-content: center;
+}
+
+.community .rect1 span {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+ 
+.community .elipse1 {
+    display: flex;
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    flex-shrink: 0;
+    margin-top: 535px;
+    margin-left: 317px;
+    border-radius: 94px;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.community .elipse2 {
+    width: 94px;
+    height: 94px;
+    flex-shrink: 0;
+    margin-left: 597px;
+    border-radius: 94px;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.community .elipse3 {
+    display: flex;
+    position: absolute;
+    margin-top: 325px;
+    margin-left: 40px;
+    width: 94px;
+    height: 94px;
+    flex-shrink: 0;
+    border-radius: 94px;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.community .elipse4 {
+    display: flex;
+    position: absolute;
+    margin-top: 49px;
+    margin-left: 910px;
+    width: 94px;
+    height: 94px;
+    flex-shrink: 0;
+    border-radius: 94px;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .community .image {
-    width: 996px;
-    height: 664px;
+    position: relative;
+    margin-top: 116px;
+    margin-left: 121px;
+    position: absolute;
+    bottom: 540;
+    right: 18;
+    width: 20px;
+    height: 20px;
     flex-shrink: 0;
-    
+    float: right;
 }
 
 /* Style for the footer box */
 .footer {
+    position: absolute;
     width: 1280px;
     height: 442px;
     flex-shrink: 0;
@@ -335,14 +484,19 @@
     display: flex;
 }
 
+.footer .logo {
+    width: 135px;
+    height: 59px;
+    flex-shrink: 0;
+    margin-left: 161px;
+}
 .footer .logo img {
     width: 38px;
     height: 38px;
     flex-shrink: 0;
     fill: #000;
     margin-top: 143px;
-    margin-left: 150px;
-    display: inline-block;
+    display: inline-flex;
 }
 
 .footer .logo text {
@@ -352,8 +506,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    position: relative;
-    margin-left: 190px;
+   
 }
 
 .footer .follow h2 {
@@ -388,7 +541,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin-left: 206px;
+    margin-left: 166px;
     margin-top: 107px;
     width: 119px;
     height: 30px;
@@ -403,8 +556,7 @@
     line-height: normal;
     width: 164px;
     height: 89px;
-    list-style-type: none;
-    margin-left: 168px;
+    margin-left: 138px;
     line-height: 30px;
     margin-top: 13px;
 }
@@ -419,7 +571,8 @@
     width: 94px;
     height: 30px;
     margin-top: 107px;
-    margin-left: 118px;
+    margin-left: 80px;
+    margin-right: 100px;
 }
 
 .footer .contacts .details {
@@ -428,9 +581,28 @@
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 30px;
     width: 243px;
-    margin-left: 80px;
+    height: 89px;
+    margin-left: 40px;
     list-style-type: none;
 }
 
+.footer .footer-add img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    height: 19.212px;
+    flex-shrink: 0;
+    background-color: #C24914;
+    fill: #7D7A74;
+    margin-top: 365px;
+    margin-bottom: 57.79px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+}
